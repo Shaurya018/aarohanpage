@@ -1,0 +1,121 @@
+.title{
+    text-align: center;
+    
+    width: 473px;
+padding-top: 263px;
+margin-left:150px;
+font-family: Avenir;
+  font-size: 42px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+;
+}
+.content{
+   
+    padding-left: 176px;
+    padding-right: 103px;
+    padding-top: 38px;
+    font-family: Avenir;
+  font-size: 26px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+#im1{
+    
+     
+   width: 473px;
+  height: 270px;
+  margin-top: -400px;
+  padding-left: 50px;
+border-radius: 10%;
+ ;
+
+
+}
+#im2{
+  margin-top: 183px;
+ width: 342px;
+  height: 500px;
+  
+  
+  border-radius: 10%;
+
+}
+.sidenav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .title{width: 473px;
+    padding-top: 263px;
+    margin-left: 96px
+    }
+    .content{
+            margin-left: 37vw;
+            width: inherit;
+            padding-left: 0px;
+    padding-right: 0px;
+    }
+    #im2{
+        margin-left: 30vw;
+    }
+    #im1{
+        margin-left: 32vw;
+    padding-left: 0px;
+    padding-right: 3vw;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+.title{width: 473px;
+    padding-top: 263px;
+    margin-left: 96px
+    }
+    .content{
+            margin-left: 37vw;
+            width: inherit;
+            padding-left: 0px;
+    padding-right: 0px;
+    }
+    #im2{
+        margin-left: 30vw;
+    }
+    #im1{
+        margin-left: 32vw;
+    padding-left: 0px;
+    padding-right: 3vw;
+    }
+}  
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
